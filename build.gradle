@@ -194,7 +194,7 @@ for(def i = 0; i < 2; i++){
     tasks.register(name){
         inputs.files input
         doLast{
-            def folder = Fi.get(OS.getAppDataDirectoryString('Mindustry')).child('mods')
+            def folder = Fi.get("D:\\GameFiles\\Mindustry\\custom\\settings\\mods")
             folder.mkdirs()
 
             folder.child(tasks.jar.archiveFileName.get()).delete()

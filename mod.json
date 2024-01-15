@@ -1,9 +1,9 @@
 {
-    "displayName": "Mod Template",
-    "description": "Mindustry Java mod template, complete with EntityAnno and syntax downgrader integration.",
+    "displayName": "Command Mode",
+    "description": "Brings back command mode from the dead",
     "version": "v1.0",
     "minGameVersion": "146",
-    "author": "You",
+    "author": "nvcbl",
     "java": true,
-    "main": "template.ModTemplate"
+    "main": "cmode.CommandMain"
 }
