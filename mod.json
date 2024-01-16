@@ -1,4 +1,5 @@
 {
+    "name": "cmode",
     "displayName": "Command Mode",
     "description": "Brings back command mode from the dead",
     "version": "v1.0",
