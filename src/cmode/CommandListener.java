@@ -55,7 +55,7 @@ public class CommandListener implements ApplicationListener {
         if (!commander.type.targetable) commandLimit -= 2;
         if (commander.hitSize < 16f) commandLimit += 2;
 
-        if (Core.input.keyTap(KeyCode.y)) {
+        if (Core.input.keyTap(KeyCode.y) && !Core.scene.hasKeyboard()) {
             commanding = !commanding;
             Fx.unitControl.at(commander.x, commander.y, 0f, commander);
 
